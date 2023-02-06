@@ -46,6 +46,8 @@ body {
 .main {
    
     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(61, 48, 52, 0.4)), url('pexels-andrew-neel-2312369.jpg');
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.4)), url('images/pexels-andrew-neel-2312369.jpg');
+
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
