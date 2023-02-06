@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Raleway:wght@100;300;500&display=swap');
+
+* {
+    /* background-color: rgb(29, 29, 29); */
+    background-color: rgb(15, 14, 14);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* NAVBAR STYLES  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: whitesmoke solid 1px;
+}
+
+.navbar h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.links a {
+    margin: 0;
+    padding: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links a:hover{
+    color: rgb(87, 213, 255);
+}
+
+
+/* MAIN CONTENT STYLES */
+.main {
+    background: url('pexels-pavel-danilyuk-7658304.jpg');
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.4)), url('images/pexels-andrew-neel-2312369.jpg');
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(61, 48, 52, 0.4)), url('images/pexels-andrew-neel-2312369.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90%;
+    margin: 10px auto;
+}
+
+.intro {
+    position: relative;
+    background-color: transparent;
+}
+
+.intro h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 3em; 
+    /* font-size: 3rem was */
+    padding: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin: 20px;
+    letter-spacing: .3rem;
+}
+
+.intro p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: .2rem;
+}
+
+/* Product Styles */
+.container-items {
+    margin-top: 80px;
+}
+
+.container-items h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.products {
+    /* display: inline-grid; */
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    /* background-color: aliceblue; */
+}
+
+.grid {
+   padding: 0;
+   margin: 15px;
+   background-color: rgb(0, 148, 197);
+}
+
+.phones img {
+    max-width: 300px;
+}  
+
+.grid p, h3 {
+    /* height: 5rem; */
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+}
+
+.grid p, h3{
+    background-color: rgb(0, 148, 197);
+}
+
+.grid button {
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 102px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.grid button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px rgb(105, 105, 105);
+    opacity: 1;
+}
+
+.phones p {
+    padding-top: 20px;
+}
+
+.phones h3 {
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+/* Reviews Styles */
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 50px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.quote .two {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.quote .three {
+    display: flex;
+    justify-content: start;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.three blockquote {
+    box-shadow: 30px 30px rgb(0, 65, 195);
+    /* margin-top: 20px; */
+}
+
+
+blockquote {
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 60%;
+    padding: 15px;
+    /* margin: 20px; */
+    box-shadow: 30px 30px purple;
+}   
+
+.two blockquote{
+    box-shadow: -30px 30px rgb(254, 113, 26);
+}
+
+
+/* Footer Styles */
+.footer {
+    font-family: 'Raleway', sans-serif;
+    opacity: .7;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer p {
+    margin: 0 auto;
+}
